@@ -22,10 +22,21 @@ attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap
 //Then we add our 'graymap' title layer to the map.
 streets.addTo(map);
 
+//add circle:
+// var circle = L.circle([34.0522, -118.2437], {
+//   color: 'black',
+//   fillColor: "#ffffa1",
+//   fillOpacity: 0.5,
+//   radius: 300
+// }).addTo(map);
+
+//add circle marker
 var circle = L.circleMarker([34.0522, -118.2437], {
   color: 'black',
   fillColor: "#ffffa1",
   fillOpacity: 0.5,
   radius: 300
 }).addTo(map);
+
+
 
