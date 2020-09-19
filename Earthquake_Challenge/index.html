@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaflet-Basic-Map</title>
+    <!-- Leaflet CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <!-- d3 JavaScript -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <!--Our CSS-->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/all.min.css">
+
+
+</head>
+<body>
+    <!--Title-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 jumbotron text-center" style="margin-top:25px">
+                <h1>Global Earthquake Activities</h1>
+            </div>
+            <p class="text text-left">Earthquakes occuring globally in the past 7 days is visualized as below using Real-Time Data Feeds from
+                USGS Hazards Program that is updated every minute. Users also have the ability to choose
+            just showing the major earthquakes which is defined by any earthquakes that have a magnitude of 4.5
+            or higher. In addition, a tectonic plate can be added. </p>
+        </div>
+    </div>
+    <!-- The div that holds our map-->
+    <div id="mapid"></div>
+    <!--Footer-->
+    <div class="footer">
+        <div class="contact">
+          <a href="https://github.com/daphany">
+            <i class="fab fa-2x fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/daphany-wang-b66087a4/">
+            <i class="fab fa-2x fa-linkedin"></i>
+          </a> 
+          <a href="mailto:daphanyyan@hotmail.com">
+            <i class="fas fa-2x fa-envelope"></i> 
+          </a> 
+          <p class="text text-center">
+            <small>&copy; University of Toronto Data Analytics Boot Camp 2020 | Designed by Daphany Wang</small>
+          </p> 
+        </div> 
+    
+
+    <!-- Leafket JavaScript-->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+    
+    <!--API key-->
+    <script type="text/javascript" src="static/js/config.js"></script>
+    <!--Our JavaScript-->
+    <script type="text/javascript" src="static/js/challenge_logic.js"></script>
+
+</body>
+</html>
