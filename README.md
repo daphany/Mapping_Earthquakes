@@ -10,4 +10,4 @@ Earthquakes occuring globally in the past 7 days is visualized using Real-Time D
 * https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson
 * https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json
 
-<img src="Resources/Updated_School_Summary.PNG" width="800">
+<img src="Earthquake_Challenge/project_screenshot.png">
